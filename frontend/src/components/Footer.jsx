@@ -46,27 +46,27 @@ const Footer = () => {
             </h4>
             <div className="flex items-center gap-3">
               <a
-                href="https://github.com/umarrajpoot"
+                href="https://github.com/Umar-Rajput123"
                 target="_blank"
                 rel="noreferrer"
-                className="w-9 h-9 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white hover:border-slate-700 transition-colors"
-                title="GitHub"
+                className="w-9 h-9 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white hover:border-slate-600 hover:bg-slate-800 hover:scale-110 transition-all duration-200"
+                title="GitHub — Umar-Rajput123"
               >
                 <Github className="w-4 h-4" />
               </a>
               <a
-                href="https://linkedin.com/in/umarrajpoot"
+                href="https://www.linkedin.com/in/muhammad-umar-mern-developer/"
                 target="_blank"
                 rel="noreferrer"
-                className="w-9 h-9 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-cyan-400 hover:border-slate-700 transition-colors"
-                title="LinkedIn"
+                className="w-9 h-9 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-cyan-400 hover:border-cyan-500/50 hover:bg-slate-800 hover:scale-110 transition-all duration-200"
+                title="LinkedIn — muhammad-umar-mern-developer"
               >
                 <Linkedin className="w-4 h-4" />
               </a>
               <a
-                href="mailto:contact@umarrajpoot.dev"
-                className="w-9 h-9 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-emerald-400 hover:border-slate-700 transition-colors"
-                title="Email"
+                href="mailto:umarsaleem0563@gmail.com"
+                className="w-9 h-9 rounded-lg bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-emerald-400 hover:border-emerald-500/50 hover:bg-slate-800 hover:scale-110 transition-all duration-200"
+                title="Email — umarsaleem0563@gmail.com"
               >
                 <Mail className="w-4 h-4" />
               </a>

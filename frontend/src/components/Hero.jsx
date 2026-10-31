@@ -129,27 +129,27 @@ const Hero = () => {
             <div className="pt-4 flex items-center justify-center lg:justify-start gap-4">
               <span className="text-xs uppercase tracking-wider text-slate-500 font-mono">Connect:</span>
               <a
-                href="https://github.com/umarrajpoot"
+                href="https://github.com/Umar-Rajput123"
                 target="_blank"
                 rel="noreferrer"
-                className="w-9 h-9 rounded-lg bg-slate-900/80 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white hover:border-cyan-500/50 hover:bg-slate-800 transition-all"
+                className="w-9 h-9 rounded-lg bg-slate-900/80 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white hover:border-cyan-500/50 hover:bg-slate-800 hover:scale-110 transition-all duration-200"
                 title="GitHub Profile"
               >
                 <Github className="w-4 h-4" />
               </a>
               <a
-                href="https://linkedin.com/in/umarrajpoot"
+                href="https://www.linkedin.com/in/muhammad-umar-mern-developer/"
                 target="_blank"
                 rel="noreferrer"
-                className="w-9 h-9 rounded-lg bg-slate-900/80 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-cyan-400 hover:border-cyan-500/50 hover:bg-slate-800 transition-all"
+                className="w-9 h-9 rounded-lg bg-slate-900/80 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-cyan-400 hover:border-cyan-500/50 hover:bg-slate-800 hover:scale-110 transition-all duration-200"
                 title="LinkedIn Profile"
               >
                 <Linkedin className="w-4 h-4" />
               </a>
               <a
-                href="mailto:contact@umarrajpoot.dev"
-                className="w-9 h-9 rounded-lg bg-slate-900/80 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-emerald-400 hover:border-emerald-500/50 hover:bg-slate-800 transition-all"
-                title="Send Email"
+                href="mailto:umarsaleem0563@gmail.com"
+                className="w-9 h-9 rounded-lg bg-slate-900/80 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-emerald-400 hover:border-emerald-500/50 hover:bg-slate-800 hover:scale-110 transition-all duration-200"
+                title="Send Email — umarsaleem0563@gmail.com"
               >
                 <Mail className="w-4 h-4" />
               </a>

@@ -48,7 +48,7 @@ const AdminLogin = () => {
   };
 
   const handleFillDemo = () => {
-    setEmail('admin@umarrajpoot.dev');
+    setEmail('umarsaleem0563@gmail.com');
     setPassword('Admin@123456');
     setError('');
   };
@@ -101,7 +101,7 @@ const AdminLogin = () => {
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  placeholder="admin@umarrajpoot.dev"
+                  placeholder="umarsaleem0563@gmail.com"
                   required
                   className="w-full pl-10 pr-4 py-3 rounded-xl bg-slate-900/90 border border-slate-800 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 transition-colors"
                 />
@@ -157,7 +157,7 @@ const AdminLogin = () => {
               <span>Fill Default Admin Credentials (Auto-fill)</span>
             </button>
             <p className="text-[11px] text-center text-slate-500 mt-2 font-mono">
-              admin@umarrajpoot.dev &bull; Admin@123456
+              umarsaleem0563@gmail.com &bull; Admin@123456
             </p>
           </div>
         </div>

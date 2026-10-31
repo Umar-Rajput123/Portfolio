@@ -14,7 +14,7 @@ dotenv.config({ path: path.join(__dirname, '..', '.env') });
 
 const sampleAdmin = {
   name: 'Umar Rajpoot',
-  email: process.env.ADMIN_EMAIL || 'admin@umarrajpoot.dev',
+  email: process.env.ADMIN_EMAIL || 'umarsaleem0563@gmail.com',
   password: process.env.ADMIN_PASSWORD || 'Admin@123456',
   role: 'admin',
 };

@@ -9,8 +9,9 @@ import {
   AlertCircle,
   Loader2,
   Sparkles,
-  Phone,
   MessageSquare,
+  Github,
+  Linkedin,
 } from 'lucide-react';
 
 const Contact = () => {
@@ -111,31 +112,73 @@ const Contact = () => {
 
               <div className="space-y-4 pt-2">
                 <a
-                  href="mailto:contact@umarrajpoot.dev"
-                  className="flex items-center gap-4 p-4 rounded-xl bg-slate-900/60 border border-slate-800/80 hover:border-cyan-500/40 transition-colors group"
+                  href="mailto:umarsaleem0563@gmail.com"
+                  className="flex items-center gap-4 p-4 rounded-xl bg-slate-900/60 border border-slate-800/80 hover:border-cyan-500/40 transition-all duration-200 group"
                 >
-                  <div className="w-10 h-10 rounded-lg bg-cyan-500/10 text-cyan-400 flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform">
+                  <div className="w-10 h-10 rounded-lg bg-cyan-500/10 text-cyan-400 flex items-center justify-center shrink-0 group-hover:scale-110 group-hover:bg-cyan-500/20 transition-all duration-200">
                     <Mail className="w-5 h-5" />
                   </div>
                   <div>
                     <span className="text-xs font-mono text-slate-400">Email Address</span>
                     <p className="text-sm font-semibold text-slate-200 group-hover:text-cyan-400 transition-colors">
-                      contact@umarrajpoot.dev
+                      umarsaleem0563@gmail.com
                     </p>
                   </div>
                 </a>
 
-                <div className="flex items-center gap-4 p-4 rounded-xl bg-slate-900/60 border border-slate-800/80">
-                  <div className="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center shrink-0">
+                <a
+                  href="https://maps.google.com/?q=Johar+Town,+Lahore,+Pakistan"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex items-center gap-4 p-4 rounded-xl bg-slate-900/60 border border-slate-800/80 hover:border-emerald-500/40 transition-all duration-200 group"
+                  title="View Johar Town, Lahore on Google Maps"
+                >
+                  <div className="w-10 h-10 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center shrink-0 group-hover:scale-110 group-hover:bg-emerald-500/20 transition-all duration-200">
                     <MapPin className="w-5 h-5" />
                   </div>
                   <div>
                     <span className="text-xs font-mono text-slate-400">Location</span>
-                    <p className="text-sm font-semibold text-slate-200">
-                      Pakistan (Available Worldwide)
+                    <p className="text-sm font-semibold text-slate-200 group-hover:text-emerald-400 transition-colors">
+                      Johar Town, Lahore, Pakistan
                     </p>
                   </div>
-                </div>
+                </a>
+
+                <a
+                  href="https://github.com/Umar-Rajput123"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex items-center gap-4 p-4 rounded-xl bg-slate-900/60 border border-slate-800/80 hover:border-slate-600 transition-all duration-200 group"
+                  title="GitHub Profile"
+                >
+                  <div className="w-10 h-10 rounded-lg bg-slate-800/60 text-slate-300 flex items-center justify-center shrink-0 group-hover:scale-110 group-hover:bg-slate-700 group-hover:text-white transition-all duration-200">
+                    <Github className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <span className="text-xs font-mono text-slate-400">GitHub Profile</span>
+                    <p className="text-sm font-semibold text-slate-200 group-hover:text-white transition-colors">
+                      github.com/Umar-Rajput123
+                    </p>
+                  </div>
+                </a>
+
+                <a
+                  href="https://www.linkedin.com/in/muhammad-umar-mern-developer/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="flex items-center gap-4 p-4 rounded-xl bg-slate-900/60 border border-slate-800/80 hover:border-cyan-500/40 transition-all duration-200 group"
+                  title="LinkedIn Profile"
+                >
+                  <div className="w-10 h-10 rounded-lg bg-blue-500/10 text-blue-400 flex items-center justify-center shrink-0 group-hover:scale-110 group-hover:bg-blue-500/20 transition-all duration-200">
+                    <Linkedin className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <span className="text-xs font-mono text-slate-400">LinkedIn Profile</span>
+                    <p className="text-sm font-semibold text-slate-200 group-hover:text-cyan-400 transition-colors">
+                      muhammad-umar-mern-developer
+                    </p>
+                  </div>
+                </a>
 
                 <div className="flex items-center gap-4 p-4 rounded-xl bg-slate-900/60 border border-slate-800/80">
                   <div className="w-10 h-10 rounded-lg bg-indigo-500/10 text-indigo-400 flex items-center justify-center shrink-0">

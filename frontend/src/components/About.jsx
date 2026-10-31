@@ -73,7 +73,15 @@ const About = () => {
                     <span className="text-slate-500 flex items-center gap-2">
                       <Globe className="w-4 h-4 text-cyan-400" /> Location:
                     </span>
-                    <span className="font-medium text-slate-200">Pakistan (Remote Worldwide)</span>
+                    <a
+                      href="https://maps.google.com/?q=Johar+Town,+Lahore,+Pakistan"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="font-medium text-slate-200 hover:text-cyan-400 transition-colors"
+                      title="View on Google Maps"
+                    >
+                      Johar Town, Lahore, Pakistan
+                    </a>
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="text-slate-500 flex items-center gap-2">

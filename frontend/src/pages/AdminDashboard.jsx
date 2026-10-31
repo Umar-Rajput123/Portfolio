@@ -283,7 +283,7 @@ const AdminDashboard = () => {
             <div>
               <h1 className="text-base font-bold text-white leading-tight">Admin Console</h1>
               <p className="text-[11px] font-mono text-cyan-400">
-                {admin?.email || 'admin@umarrajpoot.dev'} &bull; Full-Access
+                {admin?.email || 'umarsaleem0563@gmail.com'} &bull; Full-Access
               </p>
             </div>
           </div>

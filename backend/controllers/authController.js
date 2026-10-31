@@ -30,7 +30,7 @@ export const loginAdmin = async (req, res) => {
     // If no admin exists in DB yet, auto-create default admin from .env
     const adminCount = await Admin.countDocuments();
     if (adminCount === 0) {
-      const defaultEmail = (process.env.ADMIN_EMAIL || 'admin@umarrajpoot.dev').toLowerCase().trim();
+      const defaultEmail = (process.env.ADMIN_EMAIL || 'umarsaleem0563@gmail.com').toLowerCase().trim();
       const defaultPassword = process.env.ADMIN_PASSWORD || 'Admin@123456';
 
       admin = await Admin.create({

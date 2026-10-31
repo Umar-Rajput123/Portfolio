@@ -14,7 +14,7 @@ const EducationExperience = () => {
       degree: 'Bachelor of Science in Computer Science (BSCS)',
       institution: 'University of Engineering & Technology',
       period: '2021 - 2025',
-      location: 'Pakistan',
+      location: 'Johar Town, Lahore, Pakistan',
       description:
         'Focused on Software Engineering principles, Data Structures & Algorithms (DSA), Relational & NoSQL Database Design, Operating Systems, and Distributed Computing.',
       achievements: [
@@ -27,7 +27,7 @@ const EducationExperience = () => {
       degree: 'Higher Secondary School Certificate (Pre-Engineering)',
       institution: 'Punjab Group of Colleges',
       period: '2019 - 2021',
-      location: 'Pakistan',
+      location: 'Johar Town, Lahore, Pakistan',
       description:
         'Graduated with distinction focusing on Advanced Mathematics, Physics, and Analytical Logic.',
       achievements: ['Ranked in top 5% of cohort in Mathematics and Computing fundamentals.'],
@@ -104,9 +104,15 @@ const EducationExperience = () => {
                       <span className="text-xs font-mono px-2.5 py-1 rounded-full bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">
                         {item.period}
                       </span>
-                      <span className="text-xs text-slate-400 flex items-center gap-1">
+                      <a
+                        href="https://maps.google.com/?q=Johar+Town,+Lahore,+Pakistan"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-xs text-slate-400 hover:text-cyan-400 transition-colors flex items-center gap-1"
+                        title="View on Google Maps"
+                      >
                         <MapPin className="w-3 h-3 text-slate-500" /> {item.location}
-                      </span>
+                      </a>
                     </div>
 
                     <h4 className="text-lg font-bold text-white">{item.degree}</h4>
@@ -150,9 +156,15 @@ const EducationExperience = () => {
                       <span className="text-xs font-mono px-2.5 py-1 rounded-full bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
                         {item.period}
                       </span>
-                      <span className="text-xs text-slate-400 flex items-center gap-1">
+                      <a
+                        href="https://maps.google.com/?q=Johar+Town,+Lahore,+Pakistan"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-xs text-slate-400 hover:text-cyan-400 transition-colors flex items-center gap-1"
+                        title="View on Google Maps"
+                      >
                         <MapPin className="w-3 h-3 text-slate-500" /> {item.location}
-                      </span>
+                      </a>
                     </div>
 
                     <h4 className="text-lg font-bold text-white">{item.role}</h4>
