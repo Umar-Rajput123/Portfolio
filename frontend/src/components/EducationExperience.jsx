@@ -12,7 +12,7 @@ const EducationExperience = () => {
   const educationList = [
     {
       degree: 'Bachelor of Science in Computer Science (BSCS)',
-      institution: 'University of Engineering & Technology',
+      institution: 'Virtual University of Pakistan (VU)',
       period: '2021 - 2025',
       location: 'Johar Town, Lahore, Pakistan',
       description:
